@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio</title>
+    <link href="portfolio.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js"></script>
+
+</head>
+
+<body>
+    <div class="sidenav">
+        <div>
+            <a href="index.html">ZullyFlores._</a>
+        </div>
+
+        <div>
+            <a href="About.html">About</a>
+            <a href="mySkill.html">My Skills</a>
+            <a href="Portfolio.html">Portfolio</a>
+        </div>
+
+        <div>
+            <a href="test.html">Github</a>
+            <a href="#"></a>
+            <a href="#"></a>
+        </div>
+    </div>
+
+    <div class="projectPage">
+        <div>
+            <h1>
+                Media Programming I
+            </h1>
+    
+            <p class="p1">This studio course provides an introduction to the fundamentals of computational media, 
+                with an emphasis on code as the language of computing. It covers basic concepts of syntax, 
+                code structure, programming constructs, algorithms, data organization, and computer applications. 
+                The course explores procedural animation, generative graphics, and interaction using a creative coding 
+                approach.
+            </p>
+
+        </div>
+
+        <div class="slideshow-container">
+            <div class="slide">
+              <img src="Images/CSMA101_00_0.png">
+            </div>
+            <div class="slide">
+                <video src="Videos/CSMA101 Vid - 01.mkv" autoplay loop></video>      
+            </div>
+            <div class="slide">
+                <video src="Videos/CSMA101 Vid - 00.mkv" autoplay loop></video>      
+            </div>
+            <div class="slide">
+                <video src="Videos/CSMA101 Vid - 02.mkv" autoplay loop></video>      
+            </div>
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+
+    </div>
+
+    <div class="scroll-down">
+        <span class="arrow-down"></span>
+    </div>
+
+    <script src="slides.js"></script>
+    <script src="scroll-down.js"></script>
+
+      
+</body>
+
+
+
+
+
+
+
+
+</html>
